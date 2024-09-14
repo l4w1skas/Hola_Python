@@ -4,3 +4,12 @@
         Considera que 100 es múltiplo de 4, por ende cualquier número múltiplo de 100 también será multiplo de 4.
         A no ser que el número no sea múltiplo de 400, no será bisiesto
    ```
+numero = int(input("Introduce un año: "))
+if numero % 4 == 0 :
+    print("numero correcto")
+elif numero % 100 ==0:
+    print("numero correcto")
+elif numero % 400 ==0:
+    print("numero correcto.")
+else:
+    print("numero incorrecto.")
